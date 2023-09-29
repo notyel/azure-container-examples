@@ -18,6 +18,7 @@ Actualmente, este repositorio incluye los siguientes ejemplos:
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) o [Visual Studio Code](https://code.visualstudio.com/) con soporte para .NET 6.
 - Una cuenta de Microsoft Azure para probar los ejemplos.
+- Microsoft Azure Storage Explorer: Se utiliza para validar los resultados de los ejemplos y gestionar el almacenamiento en la nube de Azure.
 
 ## Cómo Empezar
 
