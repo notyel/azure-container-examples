@@ -11,6 +11,7 @@ Este repositorio contiene ejemplos y muestras de código en .NET 6 para trabajar
 Actualmente, este repositorio incluye los siguientes ejemplos:
 
 1. **create-azure-container-registry**: Ejemplo que demuestra cómo crear un registro de contenedores en Azure.
+2. **upload-file-to-azure-container-registry**: Ejemplo que ilustra cómo cargar un archivo en un registro de contenedores de Azure.
 
 **Nota:** Este repositorio está en constante desarrollo y se agregará más ejemplos en el futuro. Estoy comprometido a proporcionar ejemplos útiles y actualizados para ayudarte en tu trabajo con contenedores en Azure. ¡Mantente atento a futuras actualizaciones!
 
