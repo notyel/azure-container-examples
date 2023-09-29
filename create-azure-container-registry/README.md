@@ -2,6 +2,18 @@
 
 Este ejemplo muestra cómo crear un registro de contenedores en Microsoft Azure utilizando .NET 6 y Azure Storage. Un registro de contenedores es esencial para administrar y distribuir imágenes de contenedores en Azure.
 
+![Validación en Azure Storage Explorer](screenshots/Screenshot_1.png)
+
+Para validar el resultado final en Microsoft Azure Storage Explorer, sigue estos pasos:
+
+1. Abre Microsoft Azure Storage Explorer y accede a tu cuenta de Azure.
+
+2. Navega hasta el contenedor que creaste utilizando este ejemplo ("new-container" en este caso).
+
+3. Verifica que el contenedor se haya creado correctamente y que esté listo para su uso.
+
+¡Listo! Ahora puedes utilizar el contenedor en tus aplicaciones o cargar objetos en él según sea necesario.
+
 ## Requisitos
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) o [Visual Studio Code](https://code.visualstudio.com/) con soporte para .NET 6.
