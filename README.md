@@ -36,7 +36,7 @@ Para ejecutar los ejemplos en este repositorio, debes configurar la cadena de co
 ```json
 {
   "ConnectionStrings": {
-    "AzureStorage": "Tu Cadena de conexión de blobstorage"
+    "AzureStorage": "Tu Cadena de conexión de Azure Storage"
   }
 }
 ```
