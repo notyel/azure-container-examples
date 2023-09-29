@@ -8,7 +8,7 @@ Actualmente, este repositorio incluye los siguientes ejemplos:
 
 1. **create-azure-container-registry**: Ejemplo que demuestra cómo crear un registro de contenedores en Azure.
 
-... Con el tiempo se agregaran mas ejemplos
+**Nota:** Este repositorio está en constante desarrollo y se agregará más ejemplos en el futuro. Estoy comprometido a proporcionar ejemplos útiles y actualizados para ayudarte en tu trabajo con contenedores en Azure. ¡Mantente atento a futuras actualizaciones!
 
 ## Requisitos
 
