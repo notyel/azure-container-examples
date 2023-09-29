@@ -44,3 +44,18 @@ Reemplaza `"Tu Cadena de conexión de Azure Storage"` con la cadena de conexión
 4. Una vez ejecutado, el resultado se mostrará en la consola, indicando si el contenedor se creó correctamente o si ya existe.
 
 
+## Información de interés acerca de Blob Storage
+### Introducción a Azure Storage
+Azure Blob Storage es la **solución de almacenamiento de objetos** de Microsoft para la nube. Blob Storage está optimizado para el almacenamiento de cantidades masivas de datos no estructurados, como texto o datos binarios.
+
+Blob Storage resulta ideal para lo siguiente:
+
+- Visualización de imágenes o documentos directamente en un explorador.
+- Almacenamiento de archivos para acceso distribuido.
+- Streaming de audio y vídeo.
+- Almacenamiento de datos para copia de seguridad y restauración, recuperación ante desastres y archivado.
+- Almacenamiento de datos para el análisis en local o en un servicio hospedado de Azure.
+
+Se puede acceder a los objetos de Blob Storage desde cualquier parte del mundo a través de **HTTP o HTTPS**. Los usuarios o las aplicaciones cliente pueden acceder a los blobs mediante direcciones URL, la **API REST de Azure Storage**, **Azure PowerShell**, la **CLI de Azure** o una biblioteca cliente de Azure Storage. Las bibliotecas de cliente de almacenamiento están disponibles para varios lenguajes, como **.NET, Java, Node.js, Python, PHP y Ruby**.
+
+Los clientes también pueden conectarse de forma segura a Blob Storage mediante el protocolo de transferencia de archivos **SSH (SFTP)** y montar contenedores de Blob Storage mediante el protocolo del sistema de archivos de red **(NFS) 3.0**.
