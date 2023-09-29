@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-microsoft-azure.png" alt="Logo de Microsoft Azure" width="50%">
+</p>
+
 # Azure Container Examples
 
 Este repositorio contiene ejemplos y muestras de código en .NET 6 para trabajar con contenedores en Microsoft Azure. Los ejemplos proporcionados están diseñados para ayudarte a comprender y utilizar funcionalidades comunes relacionadas con la gestión de contenedores en Azure.
@@ -46,6 +50,33 @@ Para ejecutar los ejemplos en este repositorio, debes configurar la cadena de co
 5. Guarda el archivo `appsettings.json` con los cambios realizados.
 
 Ahora, el proyecto utilizará esta cadena de conexión para interactuar con Azure Blob Storage según lo necesite el ejemplo.
+
+## Introducción a Azure Storage:
+- Azure Storage es la **solución de almacenamiento en la nube** de Microsoft que ofrece **almacenamiento altamente disponible, escalable, duradero y seguro** para una amplia variedad de objetos de datos en la nube.
+- Los objetos de datos de Azure Storage son accesibles desde cualquier lugar del mundo a través de **HTTP o HTTPS** mediante una **API REST**.
+- Ofrece bibliotecas cliente para desarrolladores en varios lenguajes, incluyendo **.NET, Java, Python, JavaScript, C++, y Go**.
+- Se pueden usar herramientas como **Azure PowerShell, la CLI de Azure, Azure Portal** y el **Explorador de Azure Storage** para interactuar con Azure Storage.
+
+**Ventajas de Azure Storage:**
+- Ofrece **durabilidad y alta disponibilidad** mediante **redundancia de datos** y la opción de **replicación** entre centros de datos o regiones geográficas.
+- Proporciona **seguridad** mediante el **cifrado de datos**.
+- Es **escalable** para satisfacer las necesidades de rendimiento y almacenamiento de aplicaciones modernas.
+- Azure gestiona automáticamente el **mantenimiento y las actualizaciones del hardware**.
+- Permite el **acceso global a los datos** a través de **HTTP o HTTPS** y proporciona bibliotecas cliente en varios lenguajes.
+
+**Servicios de datos de Azure Storage:**
+<p align="center">
+  <img src="assets/azure-storage-types.webp" alt="Servicios de datos de Azure Storage" width="50%">
+</p>
+- **Azure Blob Storage:** Almacén de objetos escalable para datos de texto y binarios, con compatibilidad para análisis de macrodatos a través de **Data Lake Storage Gen2**.
+- **Azure Files:** Recursos compartidos de archivos administrados para implementaciones locales y en la nube.
+- **Azure Elastic SAN (versión preliminar):** Solución totalmente integrada para implementar y administrar una SAN en Azure.
+- **Azure Queue Storage:** Almacén de mensajería para la comunicación confiable entre componentes de la aplicación.
+- **Azure Table Storage:** Almacén NoSQL para el almacenamiento sin esquema de datos estructurados.
+- **Managed Disks:** Volúmenes de almacenamiento de nivel de bloque para máquinas virtuales de Azure.
+- **Azure NetApp Files (almacenamiento de archivos de empresa):** Proporciona migración y ejecución de aplicaciones basadas en archivos sin cambios en el código.
+
+En resumen, **Azure Storage** es una **solución versátil** que proporciona **durabilidad, alta disponibilidad, escalabilidad y seguridad** para diversos tipos de datos en la nube. Cada servicio de datos dentro de **Azure Storage** ofrece características específicas para diferentes escenarios de almacenamiento.
 
 ## Contribución
 
