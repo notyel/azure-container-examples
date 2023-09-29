@@ -46,7 +46,7 @@ Para ejecutar los ejemplos en este repositorio, debes configurar la cadena de co
 }
 ```
 
-4. Reemplaza `"Tu Cadena de conexión de blobstorage"` con la cadena de conexión real proporcionada por tu cuenta de Azure.
+4. Reemplaza `"Tu Cadena de conexión de Azure Storage"` con la cadena de conexión real proporcionada por tu cuenta de Azure.
 
 5. Guarda el archivo `appsettings.json` con los cambios realizados.
 
