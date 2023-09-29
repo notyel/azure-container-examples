@@ -16,7 +16,7 @@ class Program
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
             var configuration = builder.Build();
-            string connectionString = configuration.GetConnectionString("StoragePlatzi");
+            string connectionString = configuration.GetConnectionString("AzureStorage");
 
             // Parsear la cadena de conexión y obtener el cliente del blob
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString);
