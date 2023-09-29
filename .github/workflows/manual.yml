@@ -1,0 +1,31 @@
+name: Deploy to Azure
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Update Connection String
+      env:
+        AZURE_STORAGE_CONNECTION: ${{ secrets.AZURE_STORAGE_CONNECTION }}
+      run: |
+        # Lee el valor del secreto AZURE_STORAGE_CONNECTION
+        AZURE_STORAGE_CONNECTION_SECRET="${{ env.AZURE_STORAGE_CONNECTION }}"
+        
+        # Reemplaza el valor en appsettings.json
+        sed -i 's|"AzureStorage": ".*"|"AzureStorage": "'"${AZURE_STORAGE_CONNECTION_SECRET}"'"|' appsettings.json
+
+        # Comitea los cambios actualizados
+        git config --global user.email "leyton_espitia@hotmail.com"
+        git config --global user.name "Leyton Manuel Espitia Diaz"
+        git commit -am "Actualiza la cadena de conexión de Azure Storage"
+        git push
+
