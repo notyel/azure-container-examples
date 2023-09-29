@@ -65,9 +65,11 @@ Ahora, el proyecto utilizará esta cadena de conexión para interactuar con Azur
 - Permite el **acceso global a los datos** a través de **HTTP o HTTPS** y proporciona bibliotecas cliente en varios lenguajes.
 
 **Servicios de datos de Azure Storage:**
+
 <p align="center">
   <img src="assets/azure-storage-types.webp" alt="Servicios de datos de Azure Storage" width="50%">
 </p>
+
 - **Azure Blob Storage:** Almacén de objetos escalable para datos de texto y binarios, con compatibilidad para análisis de macrodatos a través de **Data Lake Storage Gen2**.
 - **Azure Files:** Recursos compartidos de archivos administrados para implementaciones locales y en la nube.
 - **Azure Elastic SAN (versión preliminar):** Solución totalmente integrada para implementar y administrar una SAN en Azure.
