@@ -33,6 +33,22 @@ Antes de ejecutar este ejemplo, asegúrate de configurar la cadena de conexión 
 
 Reemplaza `"Tu Cadena de conexión de Azure Storage"` con la cadena de conexión real proporcionada por tu cuenta de Azure.
 
+El proyecto **AzureContainerRegistryCreator** tiene las siguientes referencias de paquete:
+
+- **[net6.0]:**
+  | Paquete de nivel superior                                | Solicitado | Resuelto |
+  | --------------------------------------------------------- | ---------- | --------- |
+  | Microsoft.Azure.Storage.Blob                           | 11.2.3     | 11.2.3    |
+  | Microsoft.Extensions.Configuration                     | 7.0.0      | 7.0.0     |
+  | Microsoft.Extensions.Configuration.FileExtensions      | 7.0.0      | 7.0.0     |
+  | Microsoft.Extensions.Configuration.Json                | 7.0.0      | 7.0.0     |
+
+Puedes listar estas referencias de paquete utilizando el siguiente comando:
+
+```shell
+dotnet list AzureContainerRegistryCreator.sln package
+```
+
 ## Ejecución del Ejemplo
 
 1. Clona este repositorio a tu entorno de desarrollo local.
