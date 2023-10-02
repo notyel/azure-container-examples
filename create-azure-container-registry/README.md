@@ -35,7 +35,7 @@ Reemplaza `"Tu Cadena de conexión de Azure Storage"` con la cadena de conexión
 
 El proyecto **AzureContainerRegistryCreator** tiene las siguientes referencias de paquete:
 
-- **[net6.0]:**
+**[net6.0]:**
   | Paquete de nivel superior                                | Solicitado | Resuelto |
   | --------------------------------------------------------- | ---------- | --------- |
   | Microsoft.Azure.Storage.Blob                           | 11.2.3     | 11.2.3    |
