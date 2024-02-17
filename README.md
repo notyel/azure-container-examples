@@ -90,7 +90,7 @@ En resumen, **Azure Storage** es una **solución versátil** que proporciona **d
 
 2. Realiza tus cambios en tu bifurcación.
 
-3. Envía una solicitud de extracción (pull request) con una descripción detallada de tus cambios.
+3. Envía una solicitud de extracción (pull request) incluyendo una descripción detallada de las modificaciones realizadas.
 
 ## Licencia
 
