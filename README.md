@@ -4,7 +4,7 @@
 
 # Azure Container Examples
 
-Este repositorio contiene ejemplos y muestras de código en .NET 6 para trabajar con contenedores en Microsoft Azure. Los ejemplos proporcionados están diseñados para ayudarte a comprender y utilizar funcionalidades comunes relacionadas con la gestión de contenedores en Azure.
+Este repositorio contiene ejemplos y muestras de código en .NET 6+ para trabajar con contenedores en Microsoft Azure. Los ejemplos proporcionados están diseñados para ayudarte a comprender y utilizar funcionalidades comunes relacionadas con la gestión de contenedores en Azure.
 
 ## Ejemplos Disponibles
 
@@ -17,7 +17,7 @@ Actualmente, este repositorio incluye los siguientes ejemplos:
 
 ## Requisitos
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) o [Visual Studio Code](https://code.visualstudio.com/) con soporte para .NET 6.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) o [Visual Studio Code](https://code.visualstudio.com/) con soporte para .NET 6+.
 - Una cuenta de Microsoft Azure para probar los ejemplos.
 - Microsoft Azure Storage Explorer: Se utiliza para validar los resultados de los ejemplos y gestionar el almacenamiento en la nube de Azure.
 
